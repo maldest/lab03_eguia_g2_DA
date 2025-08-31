@@ -1,10 +1,44 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
     background-color: black;
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+header h1,
+header h2{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+header button{
+    margin: 40px 0px;
+    width: 300px;
+    padding: 20px 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+header button:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+
+.hamburger{
+    left: 20px;
+    top: 20px;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
 }
