@@ -121,10 +121,8 @@ header button:hover {
 
 @media (max-width: 900px) and (min-width: 481px) {
   .cards-container {
-   flex-wrap: wrap;  }
-  .card {
-    flex: 0 0 100% !important;
-  }
+   flex-wrap: no-wrap;  }
+
     .card img {
   width: 50%;
   align-self: center;
